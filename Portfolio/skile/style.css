@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    width: 0%;
+    height: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    animation: all forwards 2s;
+    animation-name: sojib;
+}
+span{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-radius: 50%;
+    font-weight: 700;
+    border: 2px solid yellow;
+    margin-top: -14px;
+}
+@keyframes sojib {
+    100%{
+    width:87%;
+    }
+}
+.progress-bar{
+    width: 600px;
+    background-color: rgb(55, 53, 53);
+    height: 10px;
+    border-radius: 10px;
+}
